@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+<h1>Manufac Assignment</h1>
+<p>Live Link ~ https://manufac-assignment.vercel.app/</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3>Description</h3>
+<p>The web application contains the navbar with the options Scatter Plot and Bar Chart clicking on which opens the respective chart on the screen. Scatter plot is drawn showing the “Color Intensity” on the horizontal axis and “Hue” on the vertical axis. Bar chart is drawn showing the “Alcohol” on the horizontal axis and the “Malic Acid” on the vertical axis.</p>
 
-## Available Scripts
+<h3>Scatter Plot</h3>
+<img src="https://res.cloudinary.com/dyocvbqbf/image/upload/v1672515734/Manuals/Screenshot_198_oymv3x.png" />
 
-In the project directory, you can run:
+<h3>Bar Chart</h3>
+<img src="https://res.cloudinary.com/dyocvbqbf/image/upload/v1672515738/Manuals/Screenshot_199_xxtajs.png" />
 
-### `yarn start`
+<h3>Installation</h3>
+<p>Run the following command in the terminal to build the project.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+yarn build
+```
+<p>Run the following command in the terminal to start the project.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+yarn start
+```
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3>Tech Stack</h3>
+<p> React | ECharts </p>
