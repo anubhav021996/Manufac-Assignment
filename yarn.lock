@@ -5253,6 +5253,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"echarts-stat@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "echarts-stat@npm:1.2.0"
+  checksum: 949986e1ff51b0a6f904a5cd706377afcd1d8b267346cb876bf9c822103ba4449945a905ae08b7d569900b3a82e5df9a0f911d1b935d9831d39e288e68fce3ff
+  languageName: node
+  linkType: hard
+
 "echarts@npm:^5.4.1":
   version: 5.4.1
   resolution: "echarts@npm:5.4.1"
@@ -8492,6 +8499,7 @@ __metadata:
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
     echarts: ^5.4.1
+    echarts-stat: ^1.2.0
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1

@@ -1,37 +1,19 @@
-import * as echarts from "echarts";
-import { useEffect, useRef } from "react";
-import { wineData } from "../wineData";
+import { Bar } from "./Bar";
+import { Scatter } from "./Scatter";
+import { useState } from "react";
+import styles from "./Charts.module.css";
 
 export const Main = () => {
-  let chart = useRef(null);
-
-  useEffect(() => {
-    let data = [];
-    wineData.map((e) => {
-      let arr = [e["Malic Acid"], e["Ash"]];
-      data.push(arr);
-    });
-
-    let option = {
-      xAxis: {},
-      yAxis: {},
-      series: [
-        {
-          symbolSize: 20,
-          data: data,
-          type: "scatter",
-        },
-      ],
-    };
-
-    let chartDom = chart.current;
-    let myChart = echarts.init(chartDom);
-    myChart.setOption(option);
-  }, []);
+  const [option, setOption] = useState("scatter");
 
   return (
-    <>
-      <div style={{ height: "1000px", width: "1000px" }} ref={chart}></div>
-    </>
+    <div className={styles.main}>
+      <div className={styles.nav}>
+        <h3 onClick={() => setOption("scatter")}>Scatter Plot</h3>
+        <h3 onClick={() => setOption("bar")}>Bar Chart</h3>
+      </div>
+
+      {option == "scatter" ? <Scatter /> : <Bar />}
+    </div>
   );
 };

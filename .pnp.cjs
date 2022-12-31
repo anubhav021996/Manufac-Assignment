@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:c485dafa843954fb345f12a79b25cd2c75255a9e7e2c243243456440bd75cede304797d450673ecd4c83c53a212dd5c85e928c581c66525f938ceadc3d906995#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:c485dafa843954fb345f12a79b25cd2c75255a9e7e2c243243456440bd75cede304797d450673ecd4c83c53a212dd5c85e928c581c66525f938ceadc3d906995#npm:13.5.0"],\
             ["echarts", "npm:5.4.1"],\
+            ["echarts-stat", "npm:1.2.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c485dafa843954fb345f12a79b25cd2c75255a9e7e2c243243456440bd75cede304797d450673ecd4c83c53a212dd5c85e928c581c66525f938ceadc3d906995#npm:18.2.0"],\
             ["react-scripts", "virtual:c485dafa843954fb345f12a79b25cd2c75255a9e7e2c243243456440bd75cede304797d450673ecd4c83c53a212dd5c85e928c581c66525f938ceadc3d906995#npm:5.0.1"],\
@@ -7681,6 +7682,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["echarts-stat", [\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/echarts-stat-npm-1.2.0-3b4694becf-949986e1ff.zip/node_modules/echarts-stat/",\
+          "packageDependencies": [\
+            ["echarts-stat", "npm:1.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ee-first", [\
         ["npm:1.1.1", {\
           "packageLocation": "./.yarn/cache/ee-first-npm-1.1.1-33f8535b39-1b4cac778d.zip/node_modules/ee-first/",\
@@ -11479,6 +11489,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:c485dafa843954fb345f12a79b25cd2c75255a9e7e2c243243456440bd75cede304797d450673ecd4c83c53a212dd5c85e928c581c66525f938ceadc3d906995#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:c485dafa843954fb345f12a79b25cd2c75255a9e7e2c243243456440bd75cede304797d450673ecd4c83c53a212dd5c85e928c581c66525f938ceadc3d906995#npm:13.5.0"],\
             ["echarts", "npm:5.4.1"],\
+            ["echarts-stat", "npm:1.2.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c485dafa843954fb345f12a79b25cd2c75255a9e7e2c243243456440bd75cede304797d450673ecd4c83c53a212dd5c85e928c581c66525f938ceadc3d906995#npm:18.2.0"],\
             ["react-scripts", "virtual:c485dafa843954fb345f12a79b25cd2c75255a9e7e2c243243456440bd75cede304797d450673ecd4c83c53a212dd5c85e928c581c66525f938ceadc3d906995#npm:5.0.1"],\
